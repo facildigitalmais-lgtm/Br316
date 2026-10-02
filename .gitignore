@@ -1,0 +1,25 @@
+# Pastas de Build e Bibliotecas
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+backend/target/
+backend/build/
+backend/.gradle/
+
+# Arquivos de IDE e Sistema
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Ignorar o executavel magico do ngrok, masnao scripts
+ngrok.exe
+
+# Java Class files
+*.class
